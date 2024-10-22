@@ -1,0 +1,13 @@
+.mainContent {
+   
+    margin: 0 auto;
+
+  
+    height: 650px;
+    
+    overflow-y: auto;
+  }
+  .mainContent::-webkit-scrollbar {
+    display: none;
+  }
+  
