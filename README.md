@@ -1,1 +1,1 @@
-# QuizApp2
+# InteractiveQuizApp
