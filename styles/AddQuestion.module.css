@@ -1,0 +1,67 @@
+.page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; 
+    margin: 1%; 
+    color: white;
+  }
+.title {	
+    width: 40rem;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 3rem;
+    box-shadow: 0 7px 2rem rgb(5 39 20 / 57%);
+    background: rgb(5 39 20 / 57%);
+    border-radius: 3rem;
+}
+.form {
+    display: flex;
+    list-style: none;
+    flex-direction: column; 
+}
+.question {
+  background: rgb(5 39 20 / 57%);
+  width: 40rem;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
+.category {
+    background: rgb(5 39 20 / 57%);
+    padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
+.category input {
+    width: 20rem;
+    height: 30px;
+    border-radius: 0.5rem;
+    border: 0;
+}
+.question input {
+    width: 38rem;
+    height: 30px;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+}
+.answer {
+  background: rgb(5 39 20 / 57%);
+
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
+.answer select {
+    width: 20rem;
+    height: 30px;
+    border-radius: 0.5rem;
+
+}
+.container {
+  background: rgb(5 39 20 / 57%);
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+  gap: 1rem;
+}
+.container input {
+    border-radius: 0.5rem;
+    border: 0;
+    height: 30px;
+    width: 20rem;
+    margin-top: 0.5%;
+}
