@@ -1,30 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Project Description
 
-First, run the development server:
+This project is a quiz application built using React. The purpose of the application is to provide users with an interactive way to answer questions and learn new information in a fun manner. The application includes features such as:
+- Creating and managing quizzes
+- Multiple-choice questions
+- A user-friendly and responsive interface
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation and Running Instructions
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   git clone https://github.com/RalucaE/InteractiveQuizApp.git
+ 
+2. Navigate into the project directory: 
+   cd InteractiveQuizApp
+   
+3. Install the dependencies:
+	npm install
+4. Run the application
+	npm run dev
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Branch Structure
+The project uses a simple branching structure for managing development:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+main: This branch always contains the stable version of the application.
 
-## Learn More
+module-1: This branch represents the first stage of the application. It includes the initial features and basic functionality for the quiz app.
 
 module-2: This branch builds upon module-1 and introduces additional features and enhancements, improving user interaction and expanding the quiz capabilities.
 
