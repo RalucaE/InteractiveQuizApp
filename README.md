@@ -26,15 +26,25 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+module-2: This branch builds upon module-1 and introduces additional features and enhancements, improving user interaction and expanding the quiz capabilities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+module-3: This branch is the most advanced stage of the application. It contains all the latest features, optimizations, and bug fixes, providing a complete and polished user experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##How to contribute 
+If you would like to contribute to this project, please follow these steps:
 
-## Deploy on Vercel
+-Fork the repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-Create a new branch based on the feature or fix you are working on
+	git checkout -b your-branch-name
+	
+-Make your changes and ensure that the application works correctly
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-Add and commit your changes
+	git add .
+	git commit -m "Description of the changes made"
+	
+-Push the branch to your forked repository
+	git push origin your-branch-name
+	
+-Create a Pull Request to the main branch
