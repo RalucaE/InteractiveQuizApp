@@ -1,11 +1,21 @@
-.main {
- 
-  
-  display: grid;
- 
+.page {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
- padding: 200px;
- 
- gap: 20px;
+  margin: 10%;
+}
+.title {
+  width: 40rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+  box-shadow: 0 7px 2rem rgb(5 39 20 / 57%);
+  background: rgb(5 39 20 / 57%);
+  border-radius: 3rem;
+}
+.categoriesBtn  {
+  padding: 10px 20px; 
+  font-size: 18px; 
+  font-weight: bold; 
 }

@@ -1,29 +1,39 @@
-/* .page {
-    display: grid; 
-    justify-items: center;
-    min-height: 100svh;
-    padding: 100px;
-}
-.main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-  }
-.main ol {
-   line-height: 24px;
-    list-style-position: inside;
-  } */
 
-  .page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh; /* Full height of the viewport */
-    background-color: #f9f9f9; /* Light background for contrast */
-    padding: 20px; /* Padding around the content */
-  }
-  .main ul {
-    line-height: 24px;
-     list-style-position: inside;
-   }
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; 
+  margin: 2%; 
+}
+.title {	
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+  box-shadow: 0 7px 2rem rgb(5 39 20 / 57%);
+  background: rgb(5 39 20 / 57%);
+  border-radius: 3rem;
+}
+.ulList {
+  gap: 1rem;
+  display: flex;
+  list-style: none;
+  place-items: center;
+  flex-direction: column; 
+}
+.list {
+  width: 40rem;
+  color: white;
+  border-radius: 3rem;
+  background: rgb(5 39 20 / 57%);
+  font-weight: bold;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+  cursor: pointer;
+}
+.startQuizBtn  {
+  padding: 10px 20px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-left: 40%;
+}

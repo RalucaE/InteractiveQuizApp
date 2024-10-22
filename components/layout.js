@@ -1,9 +1,15 @@
-import styles from './layout.module.css';
+import Header from './Header';
+import styles from '@/styles/Layout.module.css';
 
-export default function Layout({ children, home }) {
+const Layout = ({ children }) => {
   return (
-    <div className={styles.container}>
-      <main>{children}</main> 
-    </div>
+    <>
+     <Header />
+      <main className={styles.mainContent}>
+        {children}
+      </main>
+    </>
   );
-}
+};
+
+export default Layout;
