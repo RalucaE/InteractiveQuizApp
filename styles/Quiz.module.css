@@ -1,0 +1,29 @@
+/* .page {
+    display: grid; 
+    justify-items: center;
+    min-height: 100svh;
+    padding: 100px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+.main ol {
+   line-height: 24px;
+    list-style-position: inside;
+  } */
+
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; /* Full height of the viewport */
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px; /* Padding around the content */
+  }
+  .main ul {
+    line-height: 24px;
+     list-style-position: inside;
+   }

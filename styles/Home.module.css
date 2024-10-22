@@ -1,0 +1,11 @@
+.main {
+ 
+  
+  display: grid;
+ 
+  align-items: center;
+  justify-items: center;
+ padding: 200px;
+ 
+ gap: 20px;
+}
