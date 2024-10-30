@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Quiz.module.css";
 import Link from 'next/link';
 
-const Quiz = ({ questions, quizId }) => {
+const Quiz = ({ quizCount, questions, quizId }) => {
   return (
     <>
       <Head>
@@ -10,6 +10,7 @@ const Quiz = ({ questions, quizId }) => {
       </Head>
       <div className={`${styles.page}`}>
         <main>
+          <p>{quizCount}</p>
           <h1 className={`${styles.title}`}>Quiz {quizId}</h1>
           <ul className={`${styles.ulList}`}>
             {questions.map((question, index) => (

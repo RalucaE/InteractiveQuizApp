@@ -1,4 +1,4 @@
-import { getAllQuizIds } from '../../lib/quiz';
+import { getAllQuizIds} from '../../lib/quiz';
 import Quiz from '../../components/Quiz';
 
 export async function getStaticProps({ params }) {
@@ -14,6 +14,7 @@ export async function getStaticProps({ params }) {
 }
 export async function getStaticPaths() {
   const paths = getAllQuizIds();
+ 
   return {
     paths,
     fallback: false,
@@ -21,5 +22,6 @@ export async function getStaticPaths() {
 }
 
 export default function QuizPage({ questions, quizId }) {
-  return <Quiz questions={questions} quizId={quizId} />;
+  return(
+    <Quiz questions={questions} quizId={quizId} />);
 }

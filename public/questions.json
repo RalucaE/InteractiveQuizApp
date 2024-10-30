@@ -3,131 +3,252 @@
     {
       "id": "1",
       "question": "In which year did World War II end?",
-      "options": ["1945", "1939", "1918", "1950"],
+      "options": [
+        "1945",
+        "1939",
+        "1918",
+        "1950"
+      ],
       "answer": "1945"
     },
     {
       "id": "2",
       "question": "Who was the first President of the United States?",
-      "options": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "John Adams"],
+      "options": [
+        "George Washington",
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "John Adams"
+      ],
       "answer": "George Washington"
     },
     {
       "id": "3",
       "question": "In what year did the Roman Empire fall?",
-      "options": ["476 AD", "1453 AD", "1066 AD", "1492 AD"],
+      "options": [
+        "476 AD",
+        "1453 AD",
+        "1066 AD",
+        "1492 AD"
+      ],
       "answer": "476 AD"
     },
     {
       "id": "4",
       "question": "Which country was the first to land a man on the moon?",
-      "options": ["USA", "Russia", "China", "Germany"],
+      "options": [
+        "USA",
+        "Russia",
+        "China",
+        "Germany"
+      ],
       "answer": "USA"
     },
     {
       "id": "5",
       "question": "In which year did the Titanic sink?",
-      "options": ["1912", "1920", "1905", "1898"],
+      "options": [
+        "1912",
+        "1920",
+        "1905",
+        "1898"
+      ],
       "answer": "1912"
     }
   ],
-  
   "Science": [
     {
       "id": "1",
       "question": "What is the chemical symbol for water?",
-      "options": ["O2", "H2O", "CO2", "NaCl"],
+      "options": [
+        "O2",
+        "H2O",
+        "CO2",
+        "NaCl"
+      ],
       "answer": "H2O"
     },
     {
       "id": "2",
       "question": "Which planet is known as the Red Planet?",
-      "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
       "answer": "Mars"
     },
     {
       "id": "3",
       "question": "Who developed the theory of relativity?",
-      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Marie Curie"],
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Marie Curie"
+      ],
       "answer": "Albert Einstein"
     },
     {
       "id": "4",
       "question": "What is the hardest natural substance on Earth?",
-      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Platinum"
+      ],
       "answer": "Diamond"
     },
     {
       "id": "5",
       "question": "How many chromosomes do humans have?",
-      "options": ["23", "46", "24", "48"],
+      "options": [
+        "23",
+        "46",
+        "24",
+        "48"
+      ],
       "answer": "46"
     }
   ],
-
   "Geography": [
     {
       "id": "1",
       "question": "What is the capital city of Australia?",
-      "options": ["Sydney", "Canberra", "Melbourne", "Perth"],
+      "options": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Perth"
+      ],
       "answer": "Canberra"
     },
     {
       "id": "2",
       "question": "Which is the longest river in the world?",
-      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Mississippi"
+      ],
       "answer": "Nile"
     },
     {
       "id": "3",
       "question": "Which desert is the largest in the world?",
-      "options": ["Sahara", "Gobi", "Kalahari", "Arabian"],
+      "options": [
+        "Sahara",
+        "Gobi",
+        "Kalahari",
+        "Arabian"
+      ],
       "answer": "Sahara"
     },
     {
       "id": "4",
       "question": "Which country has the largest population?",
-      "options": ["India", "USA", "China", "Russia"],
+      "options": [
+        "India",
+        "USA",
+        "China",
+        "Russia"
+      ],
       "answer": "China"
     },
     {
       "id": "5",
       "question": "What is the smallest country in the world by area?",
-      "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Liechtenstein"
+      ],
       "answer": "Vatican City"
     }
   ],
-
   "Literature": [
     {
       "id": "1",
       "question": "Who wrote 'Romeo and Juliet'?",
-      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "options": [
+        "William Shakespeare",
+        "Charles Dickens",
+        "Jane Austen",
+        "Mark Twain"
+      ],
       "answer": "William Shakespeare"
     },
     {
       "id": "2",
       "question": "Which novel starts with the line, 'It was the best of times, it was the worst of times'?",
-      "options": ["A Tale of Two Cities", "Moby Dick", "Pride and Prejudice", "The Great Gatsby"],
+      "options": [
+        "A Tale of Two Cities",
+        "Moby Dick",
+        "Pride and Prejudice",
+        "The Great Gatsby"
+      ],
       "answer": "A Tale of Two Cities"
     },
     {
       "id": "3",
       "question": "Who wrote 'The Odyssey'?",
-      "options": ["Homer", "Virgil", "Sophocles", "Euripides"],
+      "options": [
+        "Homer",
+        "Virgil",
+        "Sophocles",
+        "Euripides"
+      ],
       "answer": "Homer"
     },
     {
       "id": "4",
       "question": "Which famous detective was created by Arthur Conan Doyle?",
-      "options": ["Sherlock Holmes", "Hercule Poirot", "Miss Marple", "Sam Spade"],
+      "options": [
+        "Sherlock Holmes",
+        "Hercule Poirot",
+        "Miss Marple",
+        "Sam Spade"
+      ],
       "answer": "Sherlock Holmes"
     },
     {
       "id": "5",
       "question": "What is the title of the first Harry Potter book?",
-      "options": ["The Sorcerer's Stone", "The Goblet of Fire", "The Chamber of Secrets", "The Prisoner of Azkaban"],
+      "options": [
+        "The Sorcerer's Stone",
+        "The Goblet of Fire",
+        "The Chamber of Secrets",
+        "The Prisoner of Azkaban"
+      ],
       "answer": "The Sorcerer's Stone"
+    }
+  ],
+  "NewCategory": [
+    {
+      "id": "1",
+      "question": "Question1",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "Question2",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": "a"
     }
   ]
 }

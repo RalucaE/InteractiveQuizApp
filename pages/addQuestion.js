@@ -7,6 +7,7 @@ export default function AddQuestionForm() {
   const [question, setQuestion] = useState('');
   const [options, setOptions] = useState(['', '', '', '']);
   const [correctAnswer, setCorrectAnswer] = useState('');
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,15 +16,36 @@ export default function AddQuestionForm() {
       alert('All fields must be completed');
       return;
     }
-
+    
     const newQuestion = {
       category,
       question,
       options,
       answer: correctAnswer,
     };
-    localStorage.setItem('question', JSON.stringify(newQuestion));
-    console.log(localStorage.getItem('question'));
+    try {
+      const response = await fetch('/api/addQuestion', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newQuestion),
+      });
+      console.log(response.body);
+      if (response.ok) {
+        alert('Question added successfully');
+        setCategory('');
+        setQuestion('');
+        setOptions(['', '', '', '']);
+        setCorrectAnswer('');
+      } else {
+        const errorData = await response.json();
+        alert(errorData.error || 'Failed to add question');
+      }
+    } catch (error) {
+      console.error('Error adding question:', error);
+      alert('An error occurred. Please try again.');
+    }
   };
 
   const handleOptionChange = (index, value) => {
